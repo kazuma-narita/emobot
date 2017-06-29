@@ -44,7 +44,7 @@ def message_analyze(message):
     for msg in content['messages']['matches']:
         msg_text = re.sub(r'<.+?>', '', msg['text'])
         msg_list.append(msg_text)
-    print (msg_list)
+    #print (msg_list)
 
     #分析
     msgs = ' '.join(msg_list)
